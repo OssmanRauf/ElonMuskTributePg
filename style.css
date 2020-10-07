@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(24, 21, 21);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    text-indent: none;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    padding-top: 10px;
+    line-height: 1.6;
+    text-indent: 50px;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+}
+
+header>h1 {
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    padding-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width:800px) {
+    header>img {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    header>img {
+        width: 500px;
+    }
+}
+
+header>img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header>h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#extraordinary {
+    color: rgb(128, 23, 23);
+}
+
+#chronology {
+    line-height: 1.5;
+    padding: 10px;
+    text-align: center;
+    text-indent: 0;
+}
+
+main {
+    padding: 10px;
+}
+
+ul {
+    display: block;
+    margin-block-start: 15px;
+    margin-block-end: 15px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: auto;
+    padding: 10px;
+    text-indent: 50px;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.years::before {
+    content: '\2022';
+    color: rgb(233, 2, 2);
+    font-weight: bolder;
+}
+
+.years {
+    list-style: none;
+    margin: 10px;
+    padding: 20px;
+}
+
+@media screen and (max-width:800px) {
+    #elon_musk_img {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    #image_quote {
+        text-align: center;
+        font-size: 20px;
+        font-family: cursive;
+        font-style: oblique;
+        color: rgb(221, 218, 218);
+        text-indent: 0px;
+    }
+    #wikipedia {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 20px;
+        font-family: inherit;
+        font-style: oblique;
+        color: rgb(221, 218, 218);
+        text-indent: 0px;
+    }
+}
+
+@media screen and (min-width:800px) {
+    #elon_musk_img {
+        width: 600px;
+        float: left;
+    }
+    #image_quote {
+        font-size: 30px;
+        font-family: cursive;
+        margin-top: 50px;
+        font-style: oblique;
+        color: rgb(221, 218, 218);
+        text-align: center;
+    }
+    #wikipedia {
+        padding-top: 40px;
+        font-size: 30px;
+        font-family: cursive;
+        margin-top: 50px;
+        font-style: oblique;
+        color: rgb(221, 218, 218);
+        text-align: center;
+    }
+}
+
+footer {
+    background-color: rgb(66, 65, 65);
+    text-align: center;
+    padding: 3px;
+    display: block;
+    width: 100%;
+    position: static;
+    bottom: 0;
+    margin-top: 80px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#footer_msg {
+    text-indent: 0px;
+    color: white;
+}
+
+#link_git {
+    color: white;
+}
+
+#link_git:hover {
+    text-decoration: underline;
+}
